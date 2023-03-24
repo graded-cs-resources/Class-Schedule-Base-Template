@@ -9,7 +9,7 @@ public class ClassSchedule {
      * Beginning of the program
      */
     public void start() {
-        courses[0] = new Course("English","Davenport","A12");;
+        
     }
 
     public static void main(String[] args) {
