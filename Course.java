@@ -1,5 +1,5 @@
 public class Course {
-    private Block block;
+    //private Block block;
     private String name;
     private String teacher;
     private String classroom;
@@ -10,5 +10,14 @@ public class Course {
         classroom = theRoom;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    
+
+    public String toString() {
+        return name + " with " + teacher + " in " + classroom;
+    }
  
 }
